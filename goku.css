@@ -3,52 +3,56 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .goku{
+  width: 500px;
   display: block;
-  margin: 60px auto;  
+  margin: 100px auto;  
   filter: drop-shadow(0px 0px 50px yellow);
 }
 ---------------------
 .card-wrap {
   display: flex;
   justify-content: space-between;
-  box-shadow:  2px 4px rgba(5px 5px 10px 10px black);
+  box-shadow: 5px 5px 10px black;
  
-  
 
 }
 .card{
-  
-  text-align: center;
-  border: 2px solid #1b0505;
+  width: 310px;
+  margin: 40px auto ;
+  box-shadow: 5px 5px 10px black;
   border-radius: 10px;
-  box-shadow: 2px 2px 20px 5px #000;
-  margin: 100px;
-  padding: 20px;
-  text-size-adjust: 20px;
-  background-color: #fff;
-  width: 350px;
-  height:460px;
+  padding: 0 0 30 px;
 }
-.box{
-  width: 200px;
-  height: 50px;
-  background:brown;
-  place-content: center;
-  text-align: center;
-  color: #ece6e6;
-  /* font-size: 2rem; */
-  margin:0 auto;
-  border: solid px rgb(25, 2, 2);
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius:10px ;
-  border-bottom-right-radius: 10px;
-}
+
 .imagen{
-  width: 300px;
-  height: 100;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  object-fit: cover;
   display: block;
-  background-position: center;
+}
+.titulo{
+
+  text-align: center;
+  color: brown;
+  margin: 20px 0;
+}
+.btn{
+  color: white;
+  background-color: brown;
+  text-decoration: none;
+  display: block;
+  padding: 13px 0;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 5px 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.parrafo{
+  text-align: center;
+}
+body{
+  font-size: 17px;
 }
